@@ -30,7 +30,7 @@ const Content = () => {
       <div className="flex flex-col justify-start items-center gap-4 overflow-y-scroll">
         <div className="w-full flex justify-between items-center gap-36">
           <h1 className="text-[21px] leading-[20px] whitespace-nowrap">{`Pure House Riad`}</h1>
-          <p className="text-[15px] leading-[15px] text-center">{`where architecture, culture, and gastronomy immerse you in authenticity and the spirit of the Red City`}</p>
+          <p className="text-[15px] leading-[15px] text-center">{`Pure Collection, a haven in the heart of Marrakech and its surroundings, where architecture, culture, and gastronomy immerse you in authenticity and the spirit of the Red City`}</p>
         </div>
         <Image
           src="/riad-1.webp"
