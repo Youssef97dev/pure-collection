@@ -67,6 +67,15 @@ body {
   background: var(--secondary);
 }
 
+/* globals.css */
+.writing-mode-vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.writing-mode-vertical-lr {
+  writing-mode: vertical-lr;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
