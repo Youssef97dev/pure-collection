@@ -36,19 +36,19 @@ const Content = () => {
             </a>
           </li>
         </ul>
-        <ul className="space-y-3 ">
-          <li className="text-[21px] leading-[20px]">
+        <ul className="space-y-8 ">
+          <li className="text-[21px] leading-[2px]">
             <Link href="#">{`Instagram`}</Link>
           </li>
-          <li className="flex justify-start items-start gap-4 text-[21px] leading-[20px]">
+          <li className="flex justify-start items-start gap-4 text-[21px] leading-[2px]">
             <Link href="#">EN</Link>
             <Link href="#">FR</Link>
           </li>
-          <li className="flex flex-col justify-start items-start gap-0 lowercase text-[12px]">
+          <li className="flex flex-col justify-start items-start gap-0 lowercase text-[14px]">
             <Link href="#">{`reservations@purehousemarrakech.com`}</Link>
             <Link href="#">{`+212 6 82 22 52 35`}</Link>
           </li>
-          <li className="lowercase text-[12px]">
+          <li className="lowercase text-[14px]">
             <Link href="#">{`16 Derb Abou El Fdail, Marrakech 40000 Morocco`}</Link>
           </li>
         </ul>
