@@ -39,22 +39,21 @@ const Hero = () => {
                 width={2000}
                 className="object-cover h-screen w-full"
               />
-              <div className="w-full absolute bottom-56 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] text-center">
-                {"Slow Living Experiences"}
+              <div className="w-full absolute bottom-56 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                <div className="">
+                  <Image
+                    src={"/Logo.svg"}
+                    width={1000}
+                    height={1000}
+                    alt="pure collection"
+                    className={`w-40 lg:w-52`}
+                  />
+                </div>
+                <div>{"Slow Living Experiences"}</div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
-
-      <div className="absolute top-80 left-1/2 transform -translate-x-1/2 text-white z-40">
-        <Image
-          src={"/Logo.svg"}
-          width={1000}
-          height={1000}
-          alt="pure collection"
-          className={`w-40 lg:w-52`}
-        />
       </div>
     </div>
   );
