@@ -4,7 +4,7 @@ import Image from "next/image";
 const Riad = () => {
   return (
     <div className="flex flex-col justify-start items-center gap-4 overflow-y-auto">
-      <div className="flex flex-col justify-start items-center gap-1">
+      <div className="flex flex-col justify-start items-center gap-0">
         <div className="w-full flex justify-between items-center gap-10">
           <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure House Riad`}</h1>
           <p className="text-[13px] leading-[15px] text-left">{`Pure Collection, a haven in the heart of Marrakech and its surroundings`}</p>
