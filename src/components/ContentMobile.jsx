@@ -1,10 +1,17 @@
 "use client";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Link from "next/link";
 import Riad from "./Riad";
 import Farm from "./Farm";
 import Boho from "./Boho";
+
+const componentsMap = {
+  riad: <Riad />,
+  farm: <Farm />,
+  boho: <Boho />,
+};
 
 const ContentMobile = () => {
   const [pure, setPure] = useState("riad");
@@ -16,31 +23,15 @@ const ContentMobile = () => {
 
   return (
     <div className="relative w-full px-3">
-      {pure === "riad" ? (
-        <div
-          className={`transition-all duration-500 ease-in-out ${
-            pure === "riad" ? "opacity-100" : "opacity-0"
-          }`}
+      <TransitionGroup>
+        <CSSTransition
+          key={pure} // unique key for each component
+          timeout={500} // duration of animation
+          classNames="fade"
         >
-          <Riad />
-        </div>
-      ) : pure === "farm" ? (
-        <div
-          className={`transition-all duration-500 ease-in-out ${
-            pure === "farm" ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Farm />
-        </div>
-      ) : (
-        <div
-          className={`transition-all duration-500 ease-in-out ${
-            pure === "boho" ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Boho />
-        </div>
-      )}
+          <div>{componentsMap[pure]}</div>
+        </CSSTransition>
+      </TransitionGroup>
 
       {pure === "riad" ? (
         <button
