@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         primary: "var(--primary)",
+        bg_button: "var(--button)",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],

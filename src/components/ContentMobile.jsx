@@ -74,6 +74,14 @@ const ContentMobile = () => {
       ) : (
         <></>
       )}
+
+      <div className="absolute bottom-14 w-full bg-bg_button text-white text-center py-2 text-[18px] uppercase">
+        {"Book"}
+      </div>
+
+      <div className="fixed bottom-0 w-full bg-white text-black text-center py-2 text-[18px] uppercase">
+        {"Menu"}
+      </div>
     </div>
   );
 };

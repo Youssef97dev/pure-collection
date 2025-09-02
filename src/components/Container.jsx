@@ -27,7 +27,13 @@ const Container = () => {
     isClient && (
       <div className="">
         <Hero />
-        {isMobile ? <ContentMobile /> : <Content />}
+        {isMobile ? (
+          <div className="w-full px-3">
+            <ContentMobile />
+          </div>
+        ) : (
+          <Content />
+        )}
       </div>
     )
   );
