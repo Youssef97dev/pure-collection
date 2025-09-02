@@ -7,14 +7,45 @@
 @import "lightgallery/css/lg-zoom.css";
 
 @font-face {
-  font-family: "TimeNewRoman";
-  src: url("./fonts/times.woff") format("woff");
+  font-family: "water";
+  src: url("./fonts/water-titing-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "water";
+  src: url("./fonts/water-titing-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arenta";
+  src: url("./fonts/Arenta-new.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/RobotoCondensed-Thin.woff") format("woff");
+  font-family: "bonsad";
+  src: url("./fonts/Bonsad-Regular-new.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "femina";
+  src: url("./fonts/femina-new.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lt";
+  src: url("./fonts/lt-new.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "tropic";
+  src: url("./fonts/tropic-new.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -32,7 +63,7 @@ html {
 
 body {
   background-color: var(--background);
-  font-family: "TimeNewRoman", serif;
+  font-family: "tropic", sans-serif;
 }
 
 /* scroll bar */

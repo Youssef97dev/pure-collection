@@ -14,7 +14,11 @@ module.exports = {
         sidebar: "var(--sidebar)",
       },
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        arenta: ["arenta", "sans-serif"],
+        bonsad: ["bonsad", "sans-serif"],
+        femina: ["femina", "sans-serif"],
+        lt: ["lt", "sans-serif"],
+        tropic: ["tropic", "sans-serif"],
       },
     },
   },

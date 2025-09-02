@@ -17,7 +17,7 @@ const heroImages = ["/hero-1.webp", "/hero-2.webp", "/hero-3.webp"];
 const Hero = () => {
   //const { t } = useTranslation();
   return (
-    <div id="hero" className="relative w-full h-screen px-0 2xl:px-20">
+    <div id="hero" className="relative w-full h-screen px-0 2xl:px-20 mb-3">
       <div className="w-full h-full">
         {/**/}
         <Swiper
@@ -39,7 +39,7 @@ const Hero = () => {
                 width={2000}
                 className="object-cover h-screen w-full"
               />
-              <div className="w-full absolute bottom-56 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background font-roboto text-[35px] lg:text-[40px] leading-[48px] text-center">
+              <div className="w-full absolute bottom-56 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] text-center">
                 {"Slow living Experiences"}
               </div>
             </SwiperSlide>
