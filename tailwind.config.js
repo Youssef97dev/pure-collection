@@ -11,6 +11,7 @@ module.exports = {
         background: "var(--background)",
         primary: "var(--primary)",
         bg_button: "var(--button)",
+        sidebar: "var(--sidebar)",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
