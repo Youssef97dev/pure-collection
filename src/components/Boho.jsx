@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Boho = () => {
   return (
-    <div className="flex flex-col justify-start items-center gap-4 overflow-y-auto">
+    <div className="flex flex-col justify-start items-center gap-2 overflow-y-auto">
       <div className="w-full flex justify-between items-center gap-10">
         <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure By Lake`}</h1>
         <p className="text-[13px] leading-[15px] text-left">{`test`}</p>
