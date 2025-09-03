@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,7 +16,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const heroImages = ["/hero-1.webp", "/hero-2.webp", "/hero-3.webp"];
 
 const Hero = () => {
-  //const { t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div id="hero" className="relative w-full h-screen px-0 2xl:px-20 mb-3">
       <div className="w-full h-full">
@@ -49,7 +50,7 @@ const Hero = () => {
                     className={`w-40 lg:w-52`}
                   />
                 </div>
-                <div>{"Slow Living Experiences"}</div>
+                <div>{t("intro.title")}</div>
               </div>
             </SwiperSlide>
           ))}

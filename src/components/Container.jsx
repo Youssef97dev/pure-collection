@@ -4,8 +4,10 @@ import Hero from "./Hero";
 import Content from "./Content";
 import ContentMobile from "./ContentMobile";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Container = () => {
+  const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
@@ -34,7 +36,7 @@ const Container = () => {
             href="#"
             className="fixed z-50 text-center text-white top-56 right-0 writing-mode-vertical-rl  bg-bg_button py-5 px-2"
           >
-            {"Book"}
+            {t("intro.book")}
           </Link>
         )}
       </div>

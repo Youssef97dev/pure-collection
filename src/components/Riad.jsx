@@ -1,15 +1,21 @@
-import React from "react";
+"use client";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Riad = () => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col justify-start items-center gap-2 overflow-y-auto">
       <div className="flex flex-col justify-start items-center gap-0">
         <div className="w-full flex justify-between items-center gap-10">
           <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure House Riad`}</h1>
-          <p className="text-[13px] leading-[15px] text-left">{`Pure Collection, a haven in the heart of Marrakech and its surroundings`}</p>
+          <p className="text-[13px] leading-[15px] text-left">
+            {t("riad.text_1")}
+          </p>
         </div>
-        <p className="text-[13px] leading-[15px] text-left">{`Where architecture, culture, and gastronomy immerse you in authenticity and the spirit of the Red City`}</p>
+        <p className="text-[13px] leading-[15px] text-left">
+          {t("riad.text_2")}
+        </p>
       </div>
       <Image
         src="/riad-1.webp"
