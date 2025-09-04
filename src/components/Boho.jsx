@@ -1,12 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Boho = () => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col justify-start items-center gap-2 overflow-y-auto">
       <div className="w-full flex justify-between items-center gap-10">
         <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure By Lake`}</h1>
-        <p className="text-[13px] leading-[15px] text-left">{`test`}</p>
+        <p className="text-[13px] leading-[15px] text-left">
+          {t("boho.text_1")}
+        </p>
       </div>
       <Image
         src="https://res.cloudinary.com/dz7wroord/image/upload/v1756372493/dar_ouzguita/boho-2_pdhtun.webp"
