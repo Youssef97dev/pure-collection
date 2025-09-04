@@ -6,12 +6,18 @@
   "riad": {
     "text_1": "Pure Collection, un havre au cœur de Marrakech et de ses environs",
     "text_2": "Là où l’architecture, la culture et la gastronomie vous plongent dans l’authenticité et l’esprit de la Ville Rouge.",
-    "text_3": "Découvrez la véritable chaleur de notre personnel attentionné, qui veille à ce que vous soyez pris en charge avec le plus grand soin. Bienvenue dans un havre où la philosophie rencontre le confort, et où chaque séjour est une harmonie de détente et d’expression artistique."
+    "text_3": "Découvrez la véritable chaleur de notre personnel attentionné, qui veille à ce que vous soyez pris en charge avec le plus grand soin.",
+    "text_4": "Bienvenue dans un havre où la philosophie rencontre le confort, et où chaque séjour est une harmonie de détente et d’expression artistique."
   },
   "farm": {
-    "text_1": "Ici, pas de réception pour accueillir les hôtes : l’idée est de leur offrir la sensation d’entrer dans leur propre maison."
+    "text_1": "Ici, pas de réception pour accueillir les hôtes : l’idée est de leur offrir la sensation d’entrer dans leur propre maison.",
+    "text_2": "Notre ferme est un lieu qui évoque un profond sentiment de confort et un espace où vous vivez une véritable sensation de bien-être.",
+    "text_3": "Elle incarne la pleine conscience, la simplicité et une connexion authentique avec la nature. Elle invite les hôtes à se déconnecter du monde numérique, à s’immerger dans la culture locale et à trouver la sérénité dans un environnement paisible qui favorise la détente, la réflexion et un mode de vie sain."
   },
   "boho": {
-    "text_1": "Vivez les vibrations pures du lac Lalla Takerkoust et du désert d’Agafay."
+    "text_1": "Vivez les vibrations pures du lac Lalla Takerkoust et du désert d’Agafay.",
+    "text_2": "Parfois, l’âme trouve sa révélation la plus profonde non dans le tumulte, mais au cœur d’un silence spacieux. Elle surgit inopinément, tel un rayon de soleil dansant sur les flots du lac Lalla Takerkoust – une prise de conscience soudaine d’une chance profonde, un doux rappel de l’essentiel.",
+    "text_3": "À chaque étape de l’organisation de votre événement, une équipe passionnée et chevronnée se tient à vos côtés. Dévouée et à l’écoute, elle œuvre sans relâche pour réaliser vos moindres souhaits.",
+    "text_4": "Chaque événement est conçu comme une création unique, entièrement sur mesure pour répondre à vos exigences et désirs. Qu’il s’agisse de l’une de nos renommées célébrations de mariage pour couples internationaux, d’un séminaire d’entreprise raffiné, d’une joyeuse bat-mitsva ou d’un colloque élégant."
   }
 }
