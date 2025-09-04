@@ -43,11 +43,11 @@ const Hero = () => {
               <div className="w-full absolute bottom-56 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                 <div className="">
                   <Image
-                    src={"/Logo.svg"}
+                    src={"/logo-2.png"}
                     width={1000}
                     height={1000}
                     alt="pure collection"
-                    className={`w-40 lg:w-52`}
+                    className={`w-56 lg:w-72`}
                   />
                 </div>
                 <div>{t("intro.title")}</div>
