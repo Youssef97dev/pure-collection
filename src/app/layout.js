@@ -2,8 +2,8 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "Pure House Marrakech",
-  description: "Pure House Marrakech",
+  title: "Pure Collection Marrakech",
+  description: "Pure Collection Marrakech",
 };
 
 export default function RootLayout({ children }) {
