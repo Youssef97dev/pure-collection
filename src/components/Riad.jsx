@@ -31,6 +31,7 @@ const Riad = () => {
         height={1000}
         className="object-cover w-full"
       />
+      <p className="text-[13px] leading-[15px] text-left">{t("riad.text_3")}</p>
     </div>
   );
 };
