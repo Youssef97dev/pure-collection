@@ -9,19 +9,18 @@ import Farm from "./Farm";
 import Boho from "./Boho";
 import SidebarMobile from "./SidebarMobile";
 
+import { usePure } from "@/context/pureContext";
+
 const componentsMap = {
   riad: <Riad />,
   farm: <Farm />,
   boho: <Boho />,
 };
 
-const ContentMobile = ({ property, setProperty }) => {
+const ContentMobile = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-
-  const changeHotel = (name) => {
-    setProperty(name);
-  };
+  const { property, changeHotel } = usePure();
 
   return (
     <div className="relative w-full p-3">
@@ -40,14 +39,14 @@ const ContentMobile = ({ property, setProperty }) => {
           onClick={() => {
             changeHotel("farm");
           }}
-          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
+          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52 z-50 cursor-pointer"
         >
           {"Pure Farm House"}
         </button>
       ) : property === "farm" ? (
         <button
           onClick={() => changeHotel("boho")}
-          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
+          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52 z-50 cursor-pointer"
         >
           {"Pure House By The Lake"}
         </button>
@@ -58,14 +57,14 @@ const ContentMobile = ({ property, setProperty }) => {
       {property === "farm" ? (
         <button
           onClick={() => changeHotel("riad")}
-          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
+          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52 z-50 cursor-pointer"
         >
           {"Pure House Medina"}
         </button>
       ) : property === "boho" ? (
         <button
           onClick={() => changeHotel("farm")}
-          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
+          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52 z-50 cursor-pointer"
         >
           {"Pure Farm House"}
         </button>

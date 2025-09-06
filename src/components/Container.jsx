@@ -12,7 +12,7 @@ const Container = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [hideLoader, setHideLoader] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
-  const [property, setProperty] = useState("riad");
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     const checkDevice = () => {
@@ -39,34 +39,36 @@ const Container = () => {
     }
   }, [hideLoader]);
 
-  return (
-    <div className="relative">
-      {!isMobile ? <Hero /> : <></>}
-      {isMobile ? (
-        <ContentMobile property={property} setProperty={setProperty} />
-      ) : (
-        <Content />
-      )}
-      {!isMobile && (
-        <Link
-          href="#"
-          className="fixed z-50 text-center text-white top-56 right-0 writing-mode-vertical-rl  bg-bg_button py-5 px-2"
-        >
-          {t("intro.book")}
-        </Link>
-      )}
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
-      {/* Loader sits on top */}
-      {showLoader && (
-        <div
-          className={`fixed inset-0 z-50 transition-opacity duration-500 ${
-            hideLoader ? "opacity-0" : "opacity-100"
-          }`}
-        >
-          <Loader setHideLoader={setHideLoader} setProperty={setProperty} />
-        </div>
-      )}
-    </div>
+  return (
+    isClient && (
+      <div className="relative">
+        {!isMobile ? <Hero /> : <></>}
+        {isMobile ? <ContentMobile /> : <Content />}
+        {!isMobile && (
+          <Link
+            href="#"
+            className="fixed z-50 text-center text-white top-56 right-0 writing-mode-vertical-rl  bg-bg_button py-5 px-2"
+          >
+            {t("intro.book")}
+          </Link>
+        )}
+
+        {/* Loader sits on top */}
+        {showLoader && (
+          <div
+            className={`fixed inset-0 z-50 transition-opacity duration-500 ${
+              hideLoader ? "opacity-0" : "opacity-100"
+            }`}
+          >
+            <Loader setHideLoader={setHideLoader} />
+          </div>
+        )}
+      </div>
+    )
   );
 };
 
