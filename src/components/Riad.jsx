@@ -8,7 +8,7 @@ const Riad = () => {
     <div className="flex flex-col justify-start items-center gap-2 overflow-y-auto">
       <div className="flex flex-col justify-start items-center gap-0">
         <div className="w-full flex justify-between items-center gap-10">
-          <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure House Riad`}</h1>
+          <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure House Medina`}</h1>
           <p className="text-[13px] leading-[15px] text-left">
             {t("riad.text_1")}
           </p>
@@ -33,7 +33,7 @@ const Riad = () => {
       />
       <div className="flex flex-col justify-start items-center gap-0">
         <div className="w-full flex justify-between items-center gap-10">
-          <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure House Riad`}</h1>
+          <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure House Medina`}</h1>
           <p className="text-[13px] leading-[15px] text-left">
             {t("riad.text_3")}
           </p>

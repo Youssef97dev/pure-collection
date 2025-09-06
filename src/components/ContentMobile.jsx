@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -15,56 +15,57 @@ const componentsMap = {
   boho: <Boho />,
 };
 
-const ContentMobile = () => {
+const ContentMobile = ({ property, setProperty }) => {
   const { t } = useTranslation();
-  const [pure, setPure] = useState("riad");
   const [isOpen, setIsOpen] = useState(false);
 
   const changeHotel = (name) => {
-    setPure(name);
+    setProperty(name);
   };
 
   return (
-    <div className="relative w-full px-3">
+    <div className="relative w-full p-3">
       <TransitionGroup>
         <CSSTransition
-          key={pure} // unique key for each component
+          key={property} // unique key for each component
           timeout={500} // duration of animation
           classNames="fade"
         >
-          <div>{componentsMap[pure]}</div>
+          <div>{componentsMap[property]}</div>
         </CSSTransition>
       </TransitionGroup>
 
-      {pure === "riad" ? (
+      {property === "riad" ? (
         <button
-          onClick={() => changeHotel("farm")}
-          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40"
+          onClick={() => {
+            changeHotel("farm");
+          }}
+          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
         >
           {"Pure Farm House"}
         </button>
-      ) : pure === "farm" ? (
+      ) : property === "farm" ? (
         <button
           onClick={() => changeHotel("boho")}
-          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40"
+          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
         >
-          {"Pure By Lake"}
+          {"Pure House By The Lake"}
         </button>
       ) : (
         <></>
       )}
 
-      {pure === "farm" ? (
+      {property === "farm" ? (
         <button
           onClick={() => changeHotel("riad")}
-          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40"
+          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
         >
-          {"Pure House Riad"}
+          {"Pure House Medina"}
         </button>
-      ) : pure === "boho" ? (
+      ) : property === "boho" ? (
         <button
           onClick={() => changeHotel("farm")}
-          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40"
+          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52"
         >
           {"Pure Farm House"}
         </button>

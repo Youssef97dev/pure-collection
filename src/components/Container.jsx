@@ -12,6 +12,7 @@ const Container = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [hideLoader, setHideLoader] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
+  const [property, setProperty] = useState("riad");
 
   useEffect(() => {
     const checkDevice = () => {
@@ -26,17 +27,26 @@ const Container = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setHideLoader(true); // trigger fade
-      setTimeout(() => setShowLoader(false), 500); // wait fade duration
+      setTimeout(() => setShowLoader(true), 500); // wait fade duration
     }, 2500);
 
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    if (hideLoader) {
+      setShowLoader(false);
+    }
+  }, [hideLoader]);
+
   return (
     <div className="relative">
-      <Hero />
-      {isMobile ? <ContentMobile /> : <Content />}
+      {!isMobile ? <Hero /> : <></>}
+      {isMobile ? (
+        <ContentMobile property={property} setProperty={setProperty} />
+      ) : (
+        <Content />
+      )}
       {!isMobile && (
         <Link
           href="#"
@@ -53,7 +63,7 @@ const Container = () => {
             hideLoader ? "opacity-0" : "opacity-100"
           }`}
         >
-          <Loader />
+          <Loader setHideLoader={setHideLoader} setProperty={setProperty} />
         </div>
       )}
     </div>
