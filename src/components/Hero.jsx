@@ -13,7 +13,12 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const heroImages = ["/hero-1.webp", "/hero-2.webp", "/hero-3.webp"];
+const heroImages = [
+  "/hero-1.webp",
+  "/hero-4.jpg",
+  "/hero-2.webp",
+  "/hero-3.webp",
+];
 
 const Hero = () => {
   const { t } = useTranslation();

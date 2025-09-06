@@ -25,7 +25,7 @@ const Boho = () => {
         className="object-cover w-full"
       />
       <Image
-        src="https://res.cloudinary.com/dz7wroord/image/upload/v1756371424/dar_ouzguita/boho-3_x06ycq.webp"
+        src="/boho-2.jpg"
         alt="pure house riad"
         width={1000}
         height={1000}
@@ -57,7 +57,7 @@ const Boho = () => {
         className="object-cover w-full"
       />
       <Image
-        src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761701/dar_ouzguita/boho_house_17_wi96y2.jpg"
+        src="/boho-1.jpg"
         alt="pure by the lake"
         width={1000}
         height={1000}

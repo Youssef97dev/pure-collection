@@ -18,14 +18,14 @@ const Riad = () => {
         </p>
       </div>
       <Image
-        src="/riad-2.webp"
+        src="/riad-1.jpg"
         alt="pure house riad"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/riad-5.webp"
+        src="/riad-2.jpg"
         alt="pure house riad"
         width={1000}
         height={1000}
@@ -50,7 +50,7 @@ const Riad = () => {
         className="object-cover w-full"
       />
       <Image
-        src="/riad-3.webp"
+        src="/riad-3.jpg"
         alt="pure house riad"
         width={1000}
         height={1000}
