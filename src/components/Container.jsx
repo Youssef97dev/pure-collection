@@ -6,12 +6,14 @@ import ContentMobile from "./ContentMobile";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import Loader from "./Loader";
+import LinkPure from "./LinkPure";
 
 const Container = () => {
   const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
   const [hideLoader, setHideLoader] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
+  const [showPureLink, setShowPureLink] = useState(true);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -27,17 +29,18 @@ const Container = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setTimeout(() => setShowLoader(true), 500); // wait fade duration
-    }, 2500);
+      setHideLoader(true);
+      setTimeout(() => setShowLoader(false), 500); // wait fade duration
+    }, 1800);
 
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
+  /*useEffect(() => {
     if (hideLoader) {
       setShowLoader(false);
     }
-  }, [hideLoader]);
+  }, [hideLoader]);*/
 
   useEffect(() => {
     setIsClient(true);
@@ -57,6 +60,13 @@ const Container = () => {
           </Link>
         )}
 
+        {/* Pure Link */}
+        {showPureLink && (
+          <div className="fixed inset-0 z-50">
+            <LinkPure />
+          </div>
+        )}
+
         {/* Loader sits on top */}
         {showLoader && (
           <div
@@ -64,7 +74,7 @@ const Container = () => {
               hideLoader ? "opacity-0" : "opacity-100"
             }`}
           >
-            <Loader setHideLoader={setHideLoader} />
+            <Loader />
           </div>
         )}
       </div>
