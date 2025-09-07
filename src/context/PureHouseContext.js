@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useContext, useState } from "react";
 
-const PureContext = createContext();
+const PureHouseContext = createContext();
 
 export const PureProvider = ({ children }) => {
   const [property, setProperty] = useState("riad");
@@ -11,11 +11,11 @@ export const PureProvider = ({ children }) => {
   };
 
   return (
-    <PureContext.Provider value={{ property, changeHotel }}>
+    <PureHouseContext.Provider value={{ property, changeHotel }}>
       {children}
-    </PureContext.Provider>
+    </PureHouseContext.Provider>
   );
 };
 
 // custom hook for convenience
-export const usePure = () => useContext(PureContext);
+export const usePure = () => useContext(PureHouseContext);

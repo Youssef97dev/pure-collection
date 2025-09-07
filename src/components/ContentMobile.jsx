@@ -9,7 +9,7 @@ import Farm from "./Farm";
 import Boho from "./Boho";
 import SidebarMobile from "./SidebarMobile";
 
-import { usePure } from "@/context/pureContext";
+import { usePure } from "@/context/PureHouseContext";
 
 const componentsMap = {
   riad: <Riad />,

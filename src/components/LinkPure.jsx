@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { usePure } from "@/context/pureContext";
+import { usePure } from "@/context/PureHouseContext";
 
 const LinkPure = () => {
   const [showRiad, setShowRiad] = useState(false);
