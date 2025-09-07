@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { usePure } from "@/context/PureHouseContext";
 
-const LinkPure = () => {
+const LinkPure = ({ setShowPureLink }) => {
   const [showRiad, setShowRiad] = useState(false);
   const [showFarm, setShowFarm] = useState(false);
   const [showBoho, setShowBoho] = useState(false);
@@ -21,6 +21,11 @@ const LinkPure = () => {
     };
   }, []);
 
+  const changePure = (name) => {
+    setShowPureLink(false);
+    changeHotel(name);
+  };
+
   return (
     <div className="bg-white text-white h-screen grid grid-rows-3 gap-1">
       {/* Row 1 */}
@@ -28,6 +33,7 @@ const LinkPure = () => {
         className={`relative flex items-center justify-center transition-opacity duration-1000 ${
           showFarm ? "opacity-100" : "opacity-0"
         }`}
+        onClick={() => changePure("farm")}
       >
         <Image
           src="/purefarm-13.webp"
@@ -46,6 +52,7 @@ const LinkPure = () => {
         className={`relative flex items-center justify-center transition-opacity duration-1000 ${
           showRiad ? "opacity-100" : "opacity-0"
         }`}
+        onClick={() => changePure("riad")}
       >
         <Image
           src="/riad-2.jpg"
@@ -65,6 +72,7 @@ const LinkPure = () => {
         className={`relative flex items-center justify-center transition-opacity duration-1000 ${
           showBoho ? "opacity-100" : "opacity-0"
         }`}
+        onClick={() => changePure("boho")}
       >
         <Image
           src="/lake-5.webp"

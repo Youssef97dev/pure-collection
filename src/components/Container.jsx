@@ -63,7 +63,7 @@ const Container = () => {
         {/* Pure Link */}
         {showPureLink && (
           <div className="fixed inset-0 z-50">
-            <LinkPure />
+            <LinkPure setShowPureLink={setShowPureLink} />
           </div>
         )}
 
