@@ -22,7 +22,7 @@ const Loader = ({ setHideLoader }) => {
         />
         <div className="w-full flex flex-col justify-center items-center gap-14">
           <div
-            className="px-9 py-8 shadow-lg rounded-full"
+            className="px-14 py-12 shadow-lg rounded-full"
             onClick={() => changePure("farm")}
           >
             <Image
@@ -30,12 +30,12 @@ const Loader = ({ setHideLoader }) => {
               alt="Logo"
               width={500}
               height={500}
-              className="w-10 animate-scale-3d"
+              className="w-16 animate-scale-3d"
             />
           </div>
           <div className="w-full flex justify-around items-center">
             <div
-              className="py-9 px-8  shadow-lg rounded-full"
+              className="py-14 px-12  shadow-lg rounded-full"
               onClick={() => changePure("riad")}
             >
               <Image
@@ -43,11 +43,11 @@ const Loader = ({ setHideLoader }) => {
                 alt="Logo"
                 width={500}
                 height={500}
-                className="w-12 animate-scale-3d"
+                className="w-16 animate-scale-3d"
               />
             </div>
             <div
-              className="py-8 px-8 shadow-lg rounded-full"
+              className="py-12 px-12 shadow-lg rounded-full"
               onClick={() => changePure("boho")}
             >
               <Image
@@ -55,7 +55,7 @@ const Loader = ({ setHideLoader }) => {
                 alt="Logo"
                 width={500}
                 height={500}
-                className="w-11 animate-scale-3d"
+                className="w-16 animate-scale-3d"
               />
             </div>
           </div>
