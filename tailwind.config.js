@@ -12,6 +12,10 @@ module.exports = {
         primary: "var(--primary)",
         bg_button: "var(--button)",
         sidebar: "var(--sidebar)",
+        riad: "var(--riad)",
+        riad_text: "var(--riad-text)",
+        farm: "var(--farm)",
+        farm_text: "var(--farm-text)",
       },
       fontFamily: {
         arenta: ["arenta", "sans-serif"],
@@ -19,6 +23,7 @@ module.exports = {
         femina: ["femina", "sans-serif"],
         lt: ["lt", "sans-serif"],
         tropic: ["tropic", "sans-serif"],
+        krosta: ["krosta", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",

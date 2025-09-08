@@ -87,7 +87,7 @@ const Hero = () => {
   const { t } = useTranslation();
   const { property } = usePure();
   return (
-    <div id="hero" className="relative w-full h-screen px-0 2xl:px-20 mb-3">
+    <div id="hero" className="relative w-full h-screen px-0 2xl:px-20">
       <div className="w-full h-full">
         {/**/}
         <Swiper

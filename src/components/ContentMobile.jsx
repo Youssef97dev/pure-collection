@@ -23,7 +23,7 @@ const ContentMobile = () => {
   const { property, changeHotel } = usePure();
 
   return (
-    <div className="relative w-full p-3">
+    <div className="relative w-full">
       <TransitionGroup>
         <CSSTransition
           key={property} // unique key for each component
@@ -72,7 +72,7 @@ const ContentMobile = () => {
         <></>
       )}
 
-      <div className="fixed bottom-0 left-0 right-0 px-3">
+      {/*<div className="fixed bottom-0 left-0 right-0 px-3">
         <div className="flex flex-col justify-center items-center gap-3 w-full">
           <div className="w-full bg-bg_button text-white text-center py-2 text-[18px] uppercase">
             {t("intro.book")}
@@ -85,7 +85,7 @@ const ContentMobile = () => {
             {"Menu"}
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* Full-screen mobile menu */}
       <SidebarMobile isOpen={isOpen} setIsOpen={setIsOpen} />

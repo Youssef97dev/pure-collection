@@ -1,11 +1,99 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import LightGallery from "lightgallery/react";
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import Link from "next/link";
+
+const ImageFarm = [
+  "/farm/purefarm-1.webp",
+  "/farm/purefarm-2.webp",
+  "/farm/purefarm-3.webp",
+  "/farm/purefarm-4.webp",
+  "/farm/purefarm-5.webp",
+  "/farm/purefarm-6.webp",
+  "/farm/purefarm-7.webp",
+  "/farm/purefarm-8.webp",
+  "/farm/purefarm-9.webp",
+  "/farm/purefarm-10.webp",
+  "/farm/purefarm-11.webp",
+  "/farm/purefarm-12.webp",
+  "/farm/purefarm-13.webp",
+  "/farm/purefarm-14.webp",
+  "/farm/purefarm-15.webp",
+  "/farm/purefarm-16.webp",
+  "/farm/purefarm-17.webp",
+  "/farm/purefarm-18.webp",
+];
+
+const MemoizedImageFarm = React.memo(({ src, alt }) => (
+  <Image
+    src={src}
+    alt={alt}
+    layout="responsive"
+    width={300}
+    height={300}
+    loading="lazy" // Lazy loading
+    className="rounded-sm"
+  />
+));
+
+// Setting the display name for the MemoizedImage component
+MemoizedImageFarm.displayName = "MemoizedImageFarm";
 
 const Farm = () => {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-col justify-start items-center gap-2 overflow-y-auto">
+    <>
+      <div className="w-full flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-start gap-3 px-7 py-24 bg-farm text-farm_text">
+          <h1 className="font-tropic uppercase text-[45px] leading-[57px]">{`Where The Stands Still`}</h1>
+          <p className="uppercase text-[20px] text-justify">
+            {t("farm.text_1")}
+          </p>
+          <div className="w-full flex flex-col justify-center items-center text-[15px]">
+            <p className="text-justify">{t("farm.text_2")}</p>
+            <p className="text-justify">{t("farm.text_3")}</p>
+          </div>
+        </div>
+        <Image
+          src="/farm/purefarm-2.webp"
+          alt="pure farm house"
+          width={1000}
+          height={1000}
+          className="object-cover w-full"
+        />
+        <div className="w-full flex flex-col justify-center items-start gap-3 text-[16px] leading-[25px] px-7 py-24 bg-farm_text text-farm">
+          <p className="text-justify">{t("farm.text_4")}</p>
+        </div>
+        <div className="w-full flex flex-col justify-center items-center">
+          <div className="w-full flex justify-center items-center gap-4">
+            <div className="w-full border-t border-farm"></div>
+            <h1 className="font-tropic uppercase text-[45px] leading-[57px] text-farm py-10 ">
+              {"Gallery"}
+            </h1>
+            <div className="w-full border-t border-farm"></div>
+          </div>
+          <LightGallery
+            speed={500}
+            plugins={[lgThumbnail]}
+            elementClassNames="masonry"
+          >
+            {ImageFarm?.map((image, index) => (
+              <Link href={image} key={index}>
+                <div className="masonry-item relative shadow-lg hover:scale-105 transition-all ease-linear overflow-hidden">
+                  <MemoizedImageFarm
+                    src={image}
+                    alt={`Pure Farm House ${index}`}
+                  />
+                </div>
+              </Link>
+            ))}
+          </LightGallery>
+        </div>
+      </div>
+      {/*<div className="flex flex-col justify-start items-center gap-2 overflow-y-auto">
       <div className="w-full flex justify-between items-center gap-10">
         <h1 className="text-[18px] leading-[20px] whitespace-nowrap">{`Pure Farm House`}</h1>
         <p className="text-[13px] leading-[15px] text-left">
@@ -58,7 +146,8 @@ const Farm = () => {
         height={1000}
         className="object-cover w-full"
       />
-    </div>
+    </div>*/}
+    </>
   );
 };
 
