@@ -18,14 +18,14 @@ const Boho = () => {
         </p>
       </div>
       <Image
-        src="https://res.cloudinary.com/dz7wroord/image/upload/v1756372499/dar_ouzguita/boho-4_izlqiv.webp"
+        src="/lake/lake-5.webp"
         alt="pure house riad"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/boho-2.jpg"
+        src="/lake/lake-9.webp"
         alt="pure house riad"
         width={1000}
         height={1000}
@@ -43,21 +43,21 @@ const Boho = () => {
         </p>
       </div>
       <Image
-        src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761705/dar_ouzguita/boho_house_20_dxux68.jpg"
+        src="/lake/lake-7.webp"
         alt="pure by the lake"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761706/dar_ouzguita/boho_house_22_fmezlr.jpg"
+        src="/lake/lake-2.webp"
         alt="pure by the lake"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/boho-1.jpg"
+        src="/lake/lake-6.webp"
         alt="pure by the lake"
         width={1000}
         height={1000}

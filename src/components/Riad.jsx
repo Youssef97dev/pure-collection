@@ -18,14 +18,14 @@ const Riad = () => {
         </p>
       </div>
       <Image
-        src="/riad-1.jpg"
+        src="/riad/riad-10.webp"
         alt="pure house riad"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/riad-2.jpg"
+        src="/riad/riad-9.webp"
         alt="pure house riad"
         width={1000}
         height={1000}
@@ -43,21 +43,21 @@ const Riad = () => {
         </p>
       </div>
       <Image
-        src="/riad-1.webp"
+        src="/riad/riad-2.webp"
         alt="pure house riad"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/riad-3.jpg"
+        src="/riad/riad-5.webp"
         alt="pure house riad"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/riad-4.webp"
+        src="/riad/riad-6.webp"
         alt="pure house riad"
         width={1000}
         height={1000}

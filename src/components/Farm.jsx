@@ -13,14 +13,14 @@ const Farm = () => {
         </p>
       </div>
       <Image
-        src="/farm-1.jpg"
+        src="/farm/purefarm-1.webp"
         alt="pure farm house"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/farm-2.jpg"
+        src="/farm/purefarm-2.webp"
         alt="pure farm house"
         width={1000}
         height={1000}
@@ -38,21 +38,21 @@ const Farm = () => {
         </p>
       </div>
       <Image
-        src="/farm-6.webp"
+        src="/farm/purefarm-4.webp"
         alt="pure farm house"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/farm-3.jpg"
+        src="/farm/purefarm-6.webp"
         alt="pure farm house"
         width={1000}
         height={1000}
         className="object-cover w-full"
       />
       <Image
-        src="/farm-2.webp"
+        src="/farm/purefarm-7.webp"
         alt="pure farm house"
         width={1000}
         height={1000}

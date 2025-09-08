@@ -22,24 +22,24 @@ const Loader = ({ setHideLoader }) => {
         />
         <div className="w-full flex flex-col justify-center items-center gap-14">
           <div
-            className="p-8 shadow-lg rounded-full"
+            className="px-9 py-8 shadow-lg rounded-full"
             onClick={() => changePure("farm")}
           >
             <Image
-              src="/logo-farm-2.png" // Replace with your logo path
+              src="/farm/farm-logo-10.png" // Replace with your logo path
               alt="Logo"
               width={500}
               height={500}
-              className="w-12 animate-scale-3d"
+              className="w-10 animate-scale-3d"
             />
           </div>
           <div className="w-full flex justify-around items-center">
             <div
-              className="py-9 px-8  shadow-lg rounded-full "
+              className="py-9 px-8  shadow-lg rounded-full"
               onClick={() => changePure("riad")}
             >
               <Image
-                src="/riad.png" // Replace with your logo path
+                src="/riad/riad-logo-black.png" // Replace with your logo path
                 alt="Logo"
                 width={500}
                 height={500}
@@ -47,15 +47,15 @@ const Loader = ({ setHideLoader }) => {
               />
             </div>
             <div
-              className="py-8 px-8 shadow-lg rounded-full "
+              className="py-8 px-8 shadow-lg rounded-full"
               onClick={() => changePure("boho")}
             >
               <Image
-                src="/bohohouse-1.png" // Replace with your logo path
+                src="/lake/lake-logo-6.png" // Replace with your logo path
                 alt="Logo"
                 width={500}
                 height={500}
-                className="w-12 animate-scale-3d"
+                className="w-11 animate-scale-3d"
               />
             </div>
           </div>

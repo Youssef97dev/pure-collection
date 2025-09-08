@@ -6,25 +6,25 @@ import ContentMobile from "./ContentMobile";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import Loader from "./Loader";
-import LinkPure from "./LinkPure";
+import { usePure } from "@/context/PureHouseContext";
 
 const Container = () => {
   const { t } = useTranslation();
-  const [isMobile, setIsMobile] = useState(false);
+  const { isMobile, changeMobile } = usePure();
   const [hideLoader, setHideLoader] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     const checkDevice = () => {
-      setIsMobile(window.innerWidth <= 768); // you can adjust breakpoint
+      changeMobile(window.innerWidth <= 768); // you can adjust breakpoint
     };
 
     checkDevice();
     window.addEventListener("resize", checkDevice);
 
     return () => window.removeEventListener("resize", checkDevice);
-  }, []);
+  }, [changeMobile]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -48,7 +48,7 @@ const Container = () => {
   return (
     isClient && (
       <div className="relative">
-        {!isMobile ? <Hero /> : <></>}
+        <Hero />
         {isMobile ? <ContentMobile /> : <Content />}
         {!isMobile && (
           <Link
