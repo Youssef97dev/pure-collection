@@ -13,7 +13,6 @@ const Container = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [hideLoader, setHideLoader] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
-  const [showPureLink, setShowPureLink] = useState(true);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -29,18 +28,18 @@ const Container = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setHideLoader(true);
-      setTimeout(() => setShowLoader(false), 500); // wait fade duration
+      //setHideLoader(false);
+      setTimeout(() => setShowLoader(true), 500); // wait fade duration
     }, 1800);
 
     return () => clearTimeout(timer);
   }, []);
 
-  /*useEffect(() => {
+  useEffect(() => {
     if (hideLoader) {
       setShowLoader(false);
     }
-  }, [hideLoader]);*/
+  }, [hideLoader]);
 
   useEffect(() => {
     setIsClient(true);
@@ -60,12 +59,12 @@ const Container = () => {
           </Link>
         )}
 
-        {/* Pure Link */}
+        {/* Pure Link 
         {showPureLink && (
           <div className="fixed inset-0 z-50">
             <LinkPure setShowPureLink={setShowPureLink} />
           </div>
-        )}
+        )}*/}
 
         {/* Loader sits on top */}
         {showLoader && (
@@ -74,7 +73,7 @@ const Container = () => {
               hideLoader ? "opacity-0" : "opacity-100"
             }`}
           >
-            <Loader />
+            <Loader setHideLoader={setHideLoader} />
           </div>
         )}
       </div>
