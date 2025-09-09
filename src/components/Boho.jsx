@@ -58,7 +58,7 @@ MemoizedImageBoho.displayName = "MemoizedImageBoho";
 const Boho = () => {
   const { t } = useTranslation();
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 20, behavior: "smooth" });
   }, []);
   return (
     <>
