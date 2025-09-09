@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import LightGallery from "lightgallery/react";
@@ -69,6 +69,9 @@ MemoizedImageFarm.displayName = "MemoizedImageFarm";
 
 const Farm = () => {
   const { t } = useTranslation();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center">
