@@ -23,7 +23,7 @@ const Loader = ({ setHideLoader }) => {
         <div className="w-full flex flex-col justify-center items-center gap-14">
           <div className="px-14 py-12" onClick={() => changePure("farm")}>
             <Image
-              src="/farm/farm-logo-10.png" // Replace with your logo path
+              src="/farm/farm-logo-black.png" // Replace with your logo path
               alt="Logo"
               width={500}
               height={500}
