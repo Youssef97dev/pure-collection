@@ -122,12 +122,12 @@ const farmImage = [
 
 const bohoImage = [
   {
-    img: "/lake/lake-2.webp",
+    img: "/lake/lake-11.webp",
     text: "Haven of tranquility",
     logo: "/lake/lake-logo-6-white.png",
   },
   {
-    img: "/lake/lake-4.webp",
+    img: "/lake/lake-1.webp",
     text: "As above so below",
     logo: "/lake/lake-logo-6-white.png",
   },
@@ -137,9 +137,39 @@ const bohoImage = [
     logo: "/lake/lake-logo-6-white.png",
   },
   {
-    img: "/lake/lake-6.webp",
+    img: "/lake/lake-33.webp",
     text: "Offering an authentic taste",
     logo: "/lake/lake-logo-6-white.png",
+  },
+  {
+    img: "/lake/lake-27.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-8.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-9.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-13.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-30.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-29.webp",
+    text: "",
+    logo: "",
   },
 ];
 
@@ -218,18 +248,18 @@ const Hero = () => {
                     width={2000}
                     className="object-cover h-screen w-full"
                   />
-                  {/*<div className="w-full absolute bottom-36 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                     <div className="">
                       <Image
-                        src={boho.logo}
+                        src="/lake/lake-logo-6-white.png"
                         width={1000}
                         height={1000}
-                        alt="pure collection"
-                        className={`w-40 lg:w-72`}
+                        alt="pure house by the lake"
+                        className={`w-32 lg:w-72`}
                       />
                     </div>
-                    <div>{boho.text}</div>
-                  </div>*/}
+                    {/*<div>{boho.text}</div>*/}
+                  </div>
                 </SwiperSlide>
               ))}
         </Swiper>
