@@ -21,41 +21,32 @@ const Loader = ({ setHideLoader }) => {
           className="w-52 animate-scale-3d"
         />
         <div className="w-full flex flex-col justify-center items-center gap-14">
-          <div
-            className="px-14 py-12 shadow-lg rounded-full"
-            onClick={() => changePure("farm")}
-          >
+          <div className="px-14 py-12" onClick={() => changePure("farm")}>
             <Image
               src="/farm/farm-logo-10.png" // Replace with your logo path
               alt="Logo"
               width={500}
               height={500}
-              className="w-16 animate-scale-3d"
+              className="w-14 animate-scale-3d"
             />
           </div>
           <div className="w-full flex justify-around items-center">
-            <div
-              className="py-14 px-12  shadow-lg rounded-full"
-              onClick={() => changePure("riad")}
-            >
+            <div className="py-14 px-12" onClick={() => changePure("riad")}>
               <Image
                 src="/riad/riad-logo-black.png" // Replace with your logo path
                 alt="Logo"
                 width={500}
                 height={500}
-                className="w-16 animate-scale-3d"
+                className="w-14 animate-scale-3d"
               />
             </div>
-            <div
-              className="py-12 px-12 shadow-lg rounded-full"
-              onClick={() => changePure("boho")}
-            >
+            <div className="py-12 px-12" onClick={() => changePure("boho")}>
               <Image
                 src="/lake/lake-logo-6.png" // Replace with your logo path
                 alt="Logo"
                 width={500}
                 height={500}
-                className="w-16 animate-scale-3d"
+                className="w-14 animate-scale-3d"
               />
             </div>
           </div>
