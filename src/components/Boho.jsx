@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import Link from "next/link";
+import { usePure } from "@/context/PureHouseContext";
 
 const ImageBoho = [
   "/lake/lake-2.webp",
@@ -57,9 +58,14 @@ MemoizedImageBoho.displayName = "MemoizedImageBoho";
 
 const Boho = () => {
   const { t } = useTranslation();
+  const { property } = usePure();
   return (
     <>
-      <div className="w-full flex flex-col justify-center items-center">
+      <div
+        className={`w-full flex flex-col justify-center items-center ${
+          property === "boho" ? "overflow-y-scroll" : "overflow-y-hidden"
+        }`}
+      >
         <div className="w-full flex flex-col justify-center items-start gap-3 px-7 py-24 bg-riad text-riad_text">
           <h1 className="font-tropic uppercase text-[45px] leading-[57px]">{`Find The Magic`}</h1>
           <p className="uppercase text-[20px] text-justify">
