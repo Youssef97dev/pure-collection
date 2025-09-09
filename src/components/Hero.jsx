@@ -204,7 +204,7 @@ const Hero = () => {
                 <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                   <div className="">
                     <Image
-                      src="/riad/riad-logo-white.png"
+                      src="/riad/riad-logo-white-2.png"
                       width={1000}
                       height={1000}
                       alt="pure collection"
@@ -280,11 +280,11 @@ const Hero = () => {
                 <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                   <div className="">
                     <Image
-                      src="/lake/lake-logo-6-white.png"
+                      src="/lake/lake-logo-white.png"
                       width={1000}
                       height={1000}
                       alt="pure house by the lake"
-                      className={`w-32 lg:w-72`}
+                      className={`w-28 lg:w-72`}
                     />
                   </div>
                   {/*<div>{boho.text}</div>*/}
