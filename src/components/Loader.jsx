@@ -6,9 +6,7 @@ const Loader = ({ setHideLoader }) => {
   const { changeHotel } = usePure();
   const changePure = (name) => {
     changeHotel(name);
-    setTimeout(() => {
-      setHideLoader(true);
-    }, 100);
+    setHideLoader(true);
   };
 
   return (
