@@ -5,8 +5,8 @@ import { usePure } from "@/context/PureHouseContext";
 const Loader = ({ setHideLoader }) => {
   const { changeHotel } = usePure();
   const changePure = (name) => {
-    setHideLoader(true);
     changeHotel(name);
+    setHideLoader(true);
   };
 
   return (
@@ -31,7 +31,7 @@ const Loader = ({ setHideLoader }) => {
             />
           </div>
           <div className="w-full flex justify-around items-center">
-            <div className="py-14 px-12" onClick={() => changePure("riad")}>
+            <div className="px-12" onClick={() => changePure("riad")}>
               <Image
                 src="/riad/riad-logo-black.png" // Replace with your logo path
                 alt="Logo"
@@ -40,7 +40,7 @@ const Loader = ({ setHideLoader }) => {
                 className="w-14 animate-scale-3d"
               />
             </div>
-            <div className="py-12 px-12" onClick={() => changePure("boho")}>
+            <div className="px-12" onClick={() => changePure("boho")}>
               <Image
                 src="/lake/lake-logo-6.png" // Replace with your logo path
                 alt="Logo"

@@ -27,7 +27,7 @@ const ContentMobile = () => {
       <TransitionGroup>
         <CSSTransition
           key={property} // unique key for each component
-          timeout={500} // duration of animation
+          timeout={1000} // duration of animation
           classNames="fade"
         >
           <div>{componentsMap[property]}</div>

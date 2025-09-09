@@ -110,7 +110,7 @@ const Hero = () => {
                     width={2000}
                     className="object-cover h-screen w-full"
                   />
-                  <div className="w-full absolute bottom-32 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  {/*<div className="w-full absolute bottom-32 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                     <div className="">
                       <Image
                         src={riad.logo}
@@ -121,7 +121,7 @@ const Hero = () => {
                       />
                     </div>
                     <div>{riad.text}</div>
-                  </div>
+                  </div>*/}
                 </SwiperSlide>
               ))
             : property === "farm"
@@ -134,7 +134,7 @@ const Hero = () => {
                     width={2000}
                     className="object-cover h-screen w-full"
                   />
-                  <div className="w-full absolute bottom-32 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  {/*<div className="w-full absolute bottom-32 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                     <div className="">
                       <Image
                         src={farm.logo}
@@ -145,7 +145,7 @@ const Hero = () => {
                       />
                     </div>
                     <div>{farm.text}</div>
-                  </div>
+                  </div>*/}
                 </SwiperSlide>
               ))
             : bohoImage.map((boho, i) => (
@@ -157,7 +157,7 @@ const Hero = () => {
                     width={2000}
                     className="object-cover h-screen w-full"
                   />
-                  <div className="w-full absolute bottom-36 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  {/*<div className="w-full absolute bottom-36 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                     <div className="">
                       <Image
                         src={boho.logo}
@@ -168,7 +168,7 @@ const Hero = () => {
                       />
                     </div>
                     <div>{boho.text}</div>
-                  </div>
+                  </div>*/}
                 </SwiperSlide>
               ))}
         </Swiper>

@@ -37,7 +37,7 @@ const Container = () => {
 
   useEffect(() => {
     if (hideLoader) {
-      setShowLoader(false);
+      setTimeout(() => setShowLoader(false), 700);
     }
   }, [hideLoader]);
 
@@ -69,7 +69,7 @@ const Container = () => {
         {/* Loader sits on top */}
         {showLoader && (
           <div
-            className={`fixed inset-0 z-50 transition-opacity duration-500 ${
+            className={`fixed inset-0 z-50 transition-opacity duration-700 ${
               hideLoader ? "opacity-0" : "opacity-100"
             }`}
           >
