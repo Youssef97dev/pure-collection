@@ -4,7 +4,7 @@ import { createContext, useContext, useState } from "react";
 const PureHouseContext = createContext();
 
 export const PureProvider = ({ children }) => {
-  const [property, setProperty] = useState("riad");
+  const [property, setProperty] = useState("");
   const [isMobile, setIsMobile] = useState(false);
 
   const changeHotel = (name) => {
