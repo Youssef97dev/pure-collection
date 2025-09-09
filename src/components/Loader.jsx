@@ -8,7 +8,7 @@ const Loader = ({ setHideLoader }) => {
     changeHotel(name);
     setTimeout(() => {
       setHideLoader(true);
-    }, 300);
+    }, 100);
   };
 
   return (
