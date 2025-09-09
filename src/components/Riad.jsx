@@ -71,7 +71,7 @@ MemoizedImage.displayName = "MemoizedImage";
 const Riad = () => {
   const { t } = useTranslation();
   useEffect(() => {
-    window.scrollTo({ top: 20, behavior: "smooth" });
+    window.scrollTo({ top: 200, behavior: "smooth" });
   }, []);
   return (
     <>
