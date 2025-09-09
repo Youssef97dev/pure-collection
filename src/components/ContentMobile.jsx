@@ -39,14 +39,14 @@ const ContentMobile = () => {
           onClick={() => {
             changeHotel("farm");
           }}
-          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52 cursor-pointer"
+          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40 cursor-pointer text-[14px]"
         >
           {"Pure Farm House"}
         </button>
       ) : property === "farm" ? (
         <button
           onClick={() => changeHotel("boho")}
-          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52 cursor-pointer"
+          className="fixed top-56 right-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40 cursor-pointer text-[14px]"
         >
           {"Pure House By The Lake"}
         </button>
@@ -57,14 +57,14 @@ const ContentMobile = () => {
       {property === "farm" ? (
         <button
           onClick={() => changeHotel("riad")}
-          className="fixed  top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52  cursor-pointer"
+          className="fixed  top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40 cursor-pointer text-[14px]"
         >
           {"Pure House Medina"}
         </button>
       ) : property === "boho" ? (
         <button
           onClick={() => changeHotel("farm")}
-          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-52  cursor-pointer"
+          className="fixed top-56 left-0 writing-mode-vertical-rl uppercase bg-background px-2 h-40 cursor-pointer text-[14px]"
         >
           {"Pure Farm House"}
         </button>
