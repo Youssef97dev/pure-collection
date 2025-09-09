@@ -180,89 +180,119 @@ const Hero = () => {
     <div id="hero" className="relative w-full h-screen px-0 2xl:px-20">
       <div className="w-full h-full">
         {/**/}
-        <Swiper
-          spaceBetween={1}
-          centeredSlides={true}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          loop={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
-        >
-          {property === "riad"
-            ? riadImage.map((riad, i) => (
-                <SwiperSlide key={i} className="relative">
-                  <Image
-                    src={riad.img}
-                    alt="pure collection"
-                    height={2000}
-                    width={2000}
-                    className="object-cover h-screen w-full"
-                  />
-                  <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
-                    <div className="">
-                      <Image
-                        src="/riad/riad-logo-white.png"
-                        width={1000}
-                        height={1000}
-                        alt="pure collection"
-                        className={`w-32 lg:w-72`}
-                      />
-                    </div>
-                    {/*<div>{riad.text}</div>*/}
+        {property === "riad" && (
+          <Swiper
+            spaceBetween={1}
+            centeredSlides={true}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper1"
+          >
+            {riadImage.map((riad, i) => (
+              <SwiperSlide key={i} className="relative">
+                <Image
+                  src={riad.img}
+                  alt="pure collection"
+                  height={2000}
+                  width={2000}
+                  className="object-cover h-screen w-full"
+                />
+                <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  <div className="">
+                    <Image
+                      src="/riad/riad-logo-white.png"
+                      width={1000}
+                      height={1000}
+                      alt="pure collection"
+                      className={`w-32 lg:w-72`}
+                    />
                   </div>
-                </SwiperSlide>
-              ))
-            : property === "farm"
-            ? farmImage.map((farm, i) => (
-                <SwiperSlide key={i} className="relative">
-                  <Image
-                    src={farm.img}
-                    alt="pure collection"
-                    height={2000}
-                    width={2000}
-                    className="object-cover h-screen w-full"
-                  />
-                  <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
-                    <div className="">
-                      <Image
-                        src="/farm/farm-logo-white.png"
-                        width={1000}
-                        height={1000}
-                        alt="pure collection"
-                        className={`w-32 lg:w-72`}
-                      />
-                    </div>
-                    {/*<div>{farm.text}</div>*/}
+                  {/*<div>{riad.text}</div>*/}
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
+
+        {property === "farm" && (
+          <Swiper
+            spaceBetween={1}
+            centeredSlides={true}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper2"
+          >
+            {farmImage.map((farm, i) => (
+              <SwiperSlide key={i} className="relative">
+                <Image
+                  src={farm.img}
+                  alt="pure collection"
+                  height={2000}
+                  width={2000}
+                  className="object-cover h-screen w-full"
+                />
+                <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  <div className="">
+                    <Image
+                      src="/farm/farm-logo-white.png"
+                      width={1000}
+                      height={1000}
+                      alt="pure collection"
+                      className={`w-32 lg:w-72`}
+                    />
                   </div>
-                </SwiperSlide>
-              ))
-            : bohoImage.map((boho, i) => (
-                <SwiperSlide key={i} className="relative">
-                  <Image
-                    src={boho.img}
-                    alt="pure collection"
-                    height={2000}
-                    width={2000}
-                    className="object-cover h-screen w-full"
-                  />
-                  <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
-                    <div className="">
-                      <Image
-                        src="/lake/lake-logo-6-white.png"
-                        width={1000}
-                        height={1000}
-                        alt="pure house by the lake"
-                        className={`w-32 lg:w-72`}
-                      />
-                    </div>
-                    {/*<div>{boho.text}</div>*/}
+                  {/*<div>{farm.text}</div>*/}
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
+
+        {property === "boho" && (
+          <Swiper
+            spaceBetween={1}
+            centeredSlides={true}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper3"
+          >
+            {bohoImage.map((boho, i) => (
+              <SwiperSlide key={i} className="relative">
+                <Image
+                  src={boho.img}
+                  alt="pure collection"
+                  height={2000}
+                  width={2000}
+                  className="object-cover h-screen w-full"
+                />
+                <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  <div className="">
+                    <Image
+                      src="/lake/lake-logo-6-white.png"
+                      width={1000}
+                      height={1000}
+                      alt="pure house by the lake"
+                      className={`w-32 lg:w-72`}
+                    />
                   </div>
-                </SwiperSlide>
-              ))}
-        </Swiper>
+                  {/*<div>{boho.text}</div>*/}
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
       </div>
     </div>
   );
