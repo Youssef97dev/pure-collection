@@ -44,6 +44,12 @@ module.exports = {
           "100%": { transform: "scale(1.8) rotateX(0deg)" },
         },
       },
+      transitionDuration: {
+        1500: "1500ms",
+        2000: "2000ms",
+        3000: "3000ms",
+        5000: "5000ms",
+      },
     },
   },
   plugins: [],
