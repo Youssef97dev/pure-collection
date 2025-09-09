@@ -39,24 +39,54 @@ const riadImage = [
 
 const farmImage = [
   {
-    img: "/farm/purefarm-1.webp",
+    img: "/farm/purefarm-47.webp",
     text: "Offering an authentic taste",
     logo: "/farm/farm-logo-white.png",
   },
   {
-    img: "/farm/purefarm-7.webp",
+    img: "/farm/purefarm-35.webp",
     text: "Where The Stands Still",
     logo: "/farm/farm-logo-white.png",
   },
   {
-    img: "/farm/purefarm-18.webp",
+    img: "/farm/purefarm-42.webp",
     text: "Service Tailored To You",
     logo: "/farm/farm-logo-white.png",
   },
   {
-    img: "/farm/purefarm-13.webp",
+    img: "/farm/purefarm-1.webp",
     text: "Feel The Magic",
     logo: "/farm/farm-logo-white.png",
+  },
+  {
+    img: "/farm/purefarm-29.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-2.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-53.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-3.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-44.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-4.webp",
+    text: "",
+    logo: "",
   },
 ];
 
