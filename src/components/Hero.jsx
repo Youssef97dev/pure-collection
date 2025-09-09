@@ -91,7 +91,7 @@ const Hero = () => {
       <div className="w-full h-full">
         {/**/}
         <Swiper
-          spaceBetween={30}
+          spaceBetween={1}
           centeredSlides={true}
           autoplay={{
             delay: 3000,
