@@ -107,7 +107,7 @@ const Farm = () => {
           >
             {ImageFarm?.map((image, index) => (
               <Link href={image} key={index}>
-                <div className="masonry-item relative shadow-lg hover:scale-105 transition-all ease-linear overflow-hidden">
+                <div className="masonry-item relative  hover:scale-105 transition-all ease-linear overflow-hidden">
                   <MemoizedImageFarm
                     src={image}
                     alt={`Pure Farm House ${index}`}

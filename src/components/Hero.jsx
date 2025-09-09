@@ -16,24 +16,54 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const riadImage = [
   {
-    img: "/riad/riad-8.webp",
+    img: "/riad/riad-1.webp",
     text: "Slow Living Experiences",
     logo: "/riad/riad-logo-white.png",
   },
   {
-    img: "/riad/riad-7.webp",
+    img: "/riad/riad-2.webp",
     text: "Feel The Magic",
     logo: "/riad/riad-logo-white.png",
   },
   {
-    img: "/riad/riad-4.webp",
+    img: "/riad/riad-7.webp",
     text: "Where The Stands Still",
     logo: "/riad/riad-logo-white.png",
   },
   {
-    img: "/riad/riad-1.webp",
+    img: "/riad/riad-10.webp",
     text: "Exclusive Services",
     logo: "/riad/riad-logo-white.png",
+  },
+  {
+    img: "/riad/riad-34.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-51.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-48.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-53.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-26.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-25.webp",
+    text: "",
+    logo: "",
   },
 ];
 
@@ -124,9 +154,10 @@ const Hero = () => {
           spaceBetween={1}
           centeredSlides={true}
           autoplay={{
-            delay: 3000,
+            delay: 5000,
             disableOnInteraction: false,
           }}
+          loop={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
@@ -140,18 +171,18 @@ const Hero = () => {
                     width={2000}
                     className="object-cover h-screen w-full"
                   />
-                  {/*<div className="w-full absolute bottom-32 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                     <div className="">
                       <Image
-                        src={riad.logo}
+                        src="/riad/riad-logo-white.png"
                         width={1000}
                         height={1000}
                         alt="pure collection"
-                        className={`w-36 lg:w-72`}
+                        className={`w-32 lg:w-72`}
                       />
                     </div>
-                    <div>{riad.text}</div>
-                  </div>*/}
+                    {/*<div>{riad.text}</div>*/}
+                  </div>
                 </SwiperSlide>
               ))
             : property === "farm"
@@ -164,18 +195,18 @@ const Hero = () => {
                     width={2000}
                     className="object-cover h-screen w-full"
                   />
-                  {/*<div className="w-full absolute bottom-32 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
+                  <div className="w-full absolute bottom-24 xl:bottom-40 left-1/2 transform -translate-x-1/2 text-background text-[28px]  lg:text-[40px] leading-[48px] flex flex-col justify-center items-center gap-5">
                     <div className="">
                       <Image
-                        src={farm.logo}
+                        src="/farm/farm-logo-white.png"
                         width={1000}
                         height={1000}
                         alt="pure collection"
-                        className={`w-52 lg:w-72`}
+                        className={`w-32 lg:w-72`}
                       />
                     </div>
-                    <div>{farm.text}</div>
-                  </div>*/}
+                    {/*<div>{farm.text}</div>*/}
+                  </div>
                 </SwiperSlide>
               ))
             : bohoImage.map((boho, i) => (
