@@ -12,7 +12,6 @@ const ImageBoho = [
   "/lake/lake-4.webp",
   "/lake/lake-6.webp",
   "/lake/lake-7.webp",
-  "/lake/lake-10.webp",
   "/lake/lake-12.webp",
   "/lake/lake-14.webp",
   "/lake/lake-15.webp",
