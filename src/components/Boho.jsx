@@ -77,7 +77,7 @@ const Boho = () => {
           height={1000}
           className="object-cover w-full"
         />
-        <div className="w-full flex flex-col justify-center items-start gap-3 text-[16px] leading-[25px] px-7 py-24 bg-riad_text text-riad">
+        <div className="w-full flex flex-col justify-center items-start gap-3  text-[25px] leading-[35px] px-7 py-24 bg-riad_text text-riad">
           <p className="text-justify">{t("boho.text_5")}</p>
         </div>
         <div className="w-full flex flex-col justify-center items-center">
