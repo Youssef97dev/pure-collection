@@ -132,7 +132,7 @@ const bohoImage = [
     logo: "",
   },
   {
-    img: "/lake/lake-28.webp",
+    img: "/lake/lake-26.webp",
     text: "As above so below",
     logo: "/lake/lake-logo-6-white.png",
   },
