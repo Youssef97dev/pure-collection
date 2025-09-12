@@ -26,6 +26,7 @@ const ImageFarm = [
   "/farm/purefarm-21.webp",
   "/farm/purefarm-22.webp",
   "/farm/purefarm-23.webp",
+  "/farm/farm-100.jpg",
   "/farm/purefarm-24.webp",
   "/farm/purefarm-25.webp",
   "/farm/purefarm-26.webp",
