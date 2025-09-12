@@ -18,7 +18,7 @@ const Loader = ({ setHideLoader }) => {
           alt="Logo"
           width={500}
           height={500}
-          className="w-52 animate-scale-3d"
+          className="w-40 animate-scale-3d"
         />
         <div className="w-full flex justify-center items-end gap-16">
           <div className="" onClick={() => changePure("riad")}>

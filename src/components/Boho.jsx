@@ -15,27 +15,25 @@ const ImageBoho = [
   "/lake/lake-12.webp",
   "/lake/lake-14.webp",
   "/lake/lake-15.webp",
-  "/lake/lake-16.webp",
   "/lake/lake-17.webp",
   "/lake/lake-18.webp",
-  "/lake/lake-19.webp",
   "/lake/lake-20.webp",
   "/lake/lake-21.webp",
-  "/lake/lake-22.webp",
-  "/lake/lake-23.webp",
-  "/lake/lake-24.webp",
   "/lake/lake-25.webp",
-  "/lake/lake-26.webp",
+  "/lake/lake-13.webp",
   "/lake/lake-28.webp",
-  "/lake/lake-31.webp",
+  "/lake/lake-29.webp",
   "/lake/lake-32.webp",
-  "/lake/lake-34.webp",
+  "/lake/lake-9.webp",
   "/lake/lake-35.webp",
   "/lake/lake-36.webp",
+  "/lake/lake-8.webp",
   "/lake/lake-37.webp",
   "/lake/lake-39.webp",
+  "/lake/lake-1.webp",
   "/lake/lake-40.webp",
   "/lake/lake-42.webp",
+  "/lake/lake-44.webp",
   "/lake/lake-43.webp",
 ];
 
@@ -73,7 +71,7 @@ const Boho = () => {
           </div>
         </div>
         <Image
-          src="/lake/lake-26.webp"
+          src="/lake/lake-13.webp"
           alt="pure house medina"
           width={1000}
           height={1000}

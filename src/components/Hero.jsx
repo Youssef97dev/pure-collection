@@ -122,26 +122,6 @@ const farmImage = [
 
 const bohoImage = [
   {
-    img: "/lake/lake-1.webp",
-    text: "As above so below",
-    logo: "/lake/lake-logo-6-white.png",
-  },
-  {
-    img: "/lake/lake-5.webp",
-    text: "Wilderness valley",
-    logo: "/lake/lake-logo-6-white.png",
-  },
-  {
-    img: "/lake/lake-33.webp",
-    text: "Offering an authentic taste",
-    logo: "/lake/lake-logo-6-white.png",
-  },
-  {
-    img: "/lake/lake-27.webp",
-    text: "",
-    logo: "",
-  },
-  {
     img: "/lake/lake-8.webp",
     text: "",
     logo: "",
@@ -152,12 +132,17 @@ const bohoImage = [
     logo: "",
   },
   {
-    img: "/lake/lake-13.webp",
+    img: "/lake/lake-28.webp",
+    text: "As above so below",
+    logo: "/lake/lake-logo-6-white.png",
+  },
+  {
+    img: "/lake/lake-32.webp",
     text: "",
     logo: "",
   },
   {
-    img: "/lake/lake-30.webp",
+    img: "/lake/lake-7.webp",
     text: "",
     logo: "",
   },
