@@ -122,19 +122,24 @@ const farmImage = [
 
 const bohoImage = [
   {
-    img: "/lake/lake-8.webp",
+    img: "/lake/lake-18.webp",
     text: "",
     logo: "",
   },
   {
-    img: "/lake/lake-9.webp",
+    img: "/lake/lake-49.jpg",
     text: "",
     logo: "",
   },
   {
-    img: "/lake/lake-26.webp",
-    text: "As above so below",
-    logo: "/lake/lake-logo-6-white.png",
+    img: "/lake/lake-46.jpg",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-5.webp",
+    text: "",
+    logo: "",
   },
   {
     img: "/lake/lake-32.webp",
@@ -147,12 +152,127 @@ const bohoImage = [
     logo: "",
   },
   {
-    img: "/lake/lake-35.webp",
+    img: "/lake/lake-1.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-19.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-2.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-34.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-21.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-50.jpg",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-15.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-33.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-26.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-36.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-16.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-6.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-13.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-4.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-17.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-31.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-25.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-44.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-3.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-20.webp",
     text: "",
     logo: "",
   },
   {
     img: "/lake/lake-42.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-8.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-37.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-28.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-9.webp",
     text: "",
     logo: "",
   },
