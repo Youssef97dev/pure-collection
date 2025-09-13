@@ -147,7 +147,12 @@ const bohoImage = [
     logo: "",
   },
   {
-    img: "/lake/lake-29.webp",
+    img: "/lake/lake-35.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-42.webp",
     text: "",
     logo: "",
   },

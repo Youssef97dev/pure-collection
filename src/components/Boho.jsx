@@ -7,7 +7,6 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 import Link from "next/link";
 
 const ImageBoho = [
-  "/lake/lake-2.webp",
   "/lake/lake-3.webp",
   "/lake/lake-4.webp",
   "/lake/lake-6.webp",
@@ -18,11 +17,11 @@ const ImageBoho = [
   "/lake/lake-17.webp",
   "/lake/lake-18.webp",
   "/lake/lake-20.webp",
+  "/lake/lake-2.webp",
   "/lake/lake-21.webp",
   "/lake/lake-25.webp",
   "/lake/lake-13.webp",
   "/lake/lake-28.webp",
-  "/lake/lake-29.webp",
   "/lake/lake-32.webp",
   "/lake/lake-9.webp",
   "/lake/lake-35.webp",
@@ -34,7 +33,6 @@ const ImageBoho = [
   "/lake/lake-40.webp",
   "/lake/lake-42.webp",
   "/lake/lake-44.webp",
-  "/lake/lake-43.webp",
 ];
 
 const MemoizedImageBoho = React.memo(({ src, alt }) => (
