@@ -69,42 +69,27 @@ const riadImage = [
 
 const farmImage = [
   {
-    img: "/farm/purefarm-47.webp",
-    text: "Offering an authentic taste",
-    logo: "/farm/farm-logo-white.png",
-  },
-  {
-    img: "/farm/purefarm-35.webp",
-    text: "Where The Stands Still",
-    logo: "/farm/farm-logo-white.png",
-  },
-  {
-    img: "/farm/purefarm-42.webp",
-    text: "Service Tailored To You",
-    logo: "/farm/farm-logo-white.png",
-  },
-  {
-    img: "/farm/purefarm-1.webp",
-    text: "Feel The Magic",
-    logo: "/farm/farm-logo-white.png",
-  },
-  {
-    img: "/farm/purefarm-29.webp",
+    img: "/farm/purefarm-37.webp",
     text: "",
     logo: "",
   },
   {
-    img: "/farm/purefarm-2.webp",
+    img: "/farm/purefarm-39.webp",
     text: "",
     logo: "",
   },
   {
-    img: "/farm/purefarm-53.webp",
+    img: "/farm/purefarm-31.webp",
     text: "",
     logo: "",
   },
   {
-    img: "/farm/purefarm-3.webp",
+    img: "/farm/purefarm-25.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-33.webp",
     text: "",
     logo: "",
   },
@@ -114,7 +99,187 @@ const farmImage = [
     logo: "",
   },
   {
+    img: "/farm/purefarm-12.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-19.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-9.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-3.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-16.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-49.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-15.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-13.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-26.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-10.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-41.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-48.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-5.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-1.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-20.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-2.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-6.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-42.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-30.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-43.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-14.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-8.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-51.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-53.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-7.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/farm-100.jpg",
+    text: "",
+    logo: "",
+  },
+  {
     img: "/farm/purefarm-4.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-50.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-29.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-46.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-27.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-35.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-47.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-34.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-36.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-45.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/farm/purefarm-38.webp",
     text: "",
     logo: "",
   },
