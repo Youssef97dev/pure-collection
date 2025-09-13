@@ -122,11 +122,6 @@ const farmImage = [
 
 const bohoImage = [
   {
-    img: "/lake/lake-18.webp",
-    text: "",
-    logo: "",
-  },
-  {
     img: "/lake/lake-49.jpg",
     text: "",
     logo: "",
@@ -255,6 +250,11 @@ const bohoImage = [
   },
   {
     img: "/lake/lake-42.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-18.webp",
     text: "",
     logo: "",
   },
