@@ -24,6 +24,7 @@ module.exports = {
         lt: ["lt", "sans-serif"],
         tropic: ["tropic", "sans-serif"],
         krosta: ["krosta", "sans-serif"],
+        familjenGrotesk: ["FamiljenGrotesk", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",
