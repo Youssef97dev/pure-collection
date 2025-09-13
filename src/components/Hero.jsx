@@ -172,11 +172,6 @@ const bohoImage = [
     logo: "",
   },
   {
-    img: "/lake/lake-21.webp",
-    text: "",
-    logo: "",
-  },
-  {
     img: "/lake/lake-50.jpg",
     text: "",
     logo: "",
@@ -196,11 +191,7 @@ const bohoImage = [
     text: "",
     logo: "",
   },
-  {
-    img: "/lake/lake-36.webp",
-    text: "",
-    logo: "",
-  },
+
   {
     img: "/lake/lake-16.webp",
     text: "",
@@ -208,16 +199,6 @@ const bohoImage = [
   },
   {
     img: "/lake/lake-6.webp",
-    text: "",
-    logo: "",
-  },
-  {
-    img: "/lake/lake-13.webp",
-    text: "",
-    logo: "",
-  },
-  {
-    img: "/lake/lake-4.webp",
     text: "",
     logo: "",
   },
@@ -243,6 +224,27 @@ const bohoImage = [
   },
   {
     img: "/lake/lake-3.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-21.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-36.webp",
+    text: "",
+    logo: "",
+  },
+
+  {
+    img: "/lake/lake-13.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/lake/lake-4.webp",
     text: "",
     logo: "",
   },
