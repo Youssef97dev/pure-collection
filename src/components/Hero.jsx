@@ -16,27 +16,87 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const riadImage = [
   {
-    img: "/riad/riad-1.webp",
-    text: "Slow Living Experiences",
-    logo: "/riad/riad-logo-white.png",
+    img: "/riad/riad-49.webp",
+    text: "",
+    logo: "",
   },
   {
-    img: "/riad/riad-2.webp",
-    text: "Feel The Magic",
-    logo: "/riad/riad-logo-white.png",
+    img: "/riad/riad-38.webp",
+    text: "",
+    logo: "",
   },
   {
-    img: "/riad/riad-7.webp",
-    text: "Where The Stands Still",
-    logo: "/riad/riad-logo-white.png",
+    img: "/riad/riad-11.webp",
+    text: "",
+    logo: "",
   },
   {
-    img: "/riad/riad-10.webp",
-    text: "Exclusive Services",
-    logo: "/riad/riad-logo-white.png",
+    img: "/riad/riad-36.webp",
+    text: "",
+    logo: "",
   },
   {
     img: "/riad/riad-34.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-13.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-56.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-14.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-23.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-5.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-1.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-33.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-24.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-30.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-52.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-25.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-22.webp",
     text: "",
     logo: "",
   },
@@ -46,7 +106,27 @@ const riadImage = [
     logo: "",
   },
   {
-    img: "/riad/riad-48.webp",
+    img: "/riad/riad-26.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-32.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-18.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-27.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-42.webp",
     text: "",
     logo: "",
   },
@@ -56,12 +136,97 @@ const riadImage = [
     logo: "",
   },
   {
-    img: "/riad/riad-26.webp",
+    img: "/riad/riad-43.webp",
     text: "",
     logo: "",
   },
   {
-    img: "/riad/riad-25.webp",
+    img: "/riad/riad-31.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-06.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-20.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-17.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-55.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-7.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-44.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-37.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-39.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-48.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-2.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-29.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-3.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-4.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-45.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-12.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-54.webp",
+    text: "",
+    logo: "",
+  },
+  {
+    img: "/riad/riad-10.webp",
     text: "",
     logo: "",
   },
