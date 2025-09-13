@@ -55,6 +55,9 @@ module.exports = {
         3000: "3000ms",
         5000: "5000ms",
       },
+      height: {
+        screen: ["100dvh"], // overrides h-screen
+      },
     },
   },
   plugins: [],
