@@ -13,7 +13,7 @@ const Loader = ({ setHideLoader }) => {
   return (
     <div className="fixed inset-0 z-40 h-screen">
       {/* Beige background with logo animation */}
-      <div className="absolute inset-0 bg-[#E6E1C9] flex flex-col items-center justify-start pt-40 gap-5">
+      <div className="absolute inset-0 bg-[#E6E1C9] flex flex-col items-center justify-start pt-24 gap-5">
         <div className="w-full flex flex-col justify-center items-center">
           <Image
             src="/logo-4.png" // Replace with your logo path
