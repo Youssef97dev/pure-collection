@@ -16,6 +16,8 @@ module.exports = {
         riad_text: "var(--riad-text)",
         farm: "var(--farm)",
         farm_text: "var(--farm-text)",
+        boho: "var(--boho)",
+        boho_text: "var(--boho-text)",
       },
       fontFamily: {
         arenta: ["arenta", "sans-serif"],

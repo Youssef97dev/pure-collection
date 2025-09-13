@@ -13,18 +13,19 @@ const Loader = ({ setHideLoader }) => {
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center h-screen">
       {/* Beige background with logo animation */}
-      <div className="absolute inset-0 bg-white flex flex-col items-center justify-center gap-16">
+      <div className="absolute inset-0 bg-[#E6E1C9] flex flex-col items-center justify-center gap-16">
         <div className="flex flex-col justify-center items-center gap-1">
           <Image
-            src="/logo-1.png" // Replace with your logo path
+            src="/logo-4.png" // Replace with your logo path
             alt="Logo"
             width={500}
             height={500}
-            className="w-56 "
+            className="w-60 "
           />
           {/*<span className="font-tropic text-[14px]">{"Discover"}</span>
           <MdOutlineKeyboardArrowDown size={12} />*/}
         </div>
+        <p className=" px-8 font-familjenGrotesk text-[27px] leading-[28px] text-[#79431d]">{`WE LIVE TO INSPIRE AND BE INSPIRED, TO EXPAND BEYOND LABELS AND BOUNDARIES. WE FIND BEAUTY WHERE CULTURES MEET, NATURE REIGNS AND CREATIVITY RUNS FREE`}</p>
         <div className="w-full flex justify-center items-end gap-16">
           <div className="" onClick={() => changePure("riad")}>
             <Image
@@ -54,7 +55,6 @@ const Loader = ({ setHideLoader }) => {
             />
           </div>
         </div>
-        <p className=" px-8 font-familjenGrotesk text-[27px] leading-[28px]">{`WE LIVE TO INSPIRE AND BE INSPIRED, TO EXPAND BEYOND LABELS AND BOUNDARIES. WE FIND BEAUTY WHERE CULTURES MEET, NATURE REIGNS AND CREATIVITY RUNS FREE`}</p>
       </div>
     </div>
   );
